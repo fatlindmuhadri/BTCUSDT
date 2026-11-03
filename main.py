@@ -17,12 +17,14 @@ try:
 except ImportError:
     pass
 
-# ===================== KONFIGURIMI =====================
+# --- KONFIGURIMI I LLOGARISË ---
 API_KEY = "vCVPFQecFIZVIin8MlfQENB4RtQ3LvJOEwswEBAeGcUuJx6CHu5AayJvqbvfD3dd"
 API_SECRET = "5xSVmS1XGuMIoH0GxB3DUMgcYF49TEoscb6lBeEN1nlyB4ISCAVgwUcInPXeOOkl"
-TELEGRAM_TOKEN = "8921013869:AAGPdghtjE8KCJWXX_CaGEthMcYODCeAFDc"
+TELEGRAM_TOKEN = "8921013869:AAEGiG2Um3IcWb7RFBN_zyNNj12UUfZx1dA"
 CHAT_ID = "5458100041"
-BASE_URL = os.getenv("BASE_URL", "https://demo-fapi.binance.com")
+
+BASE_URL = "https://demo-fapi.binance.com"  # Futures DEMO TRADING
+
 STATE_FILE = os.getenv("STATE_FILE", "scalp_state.json")
 
 SYMBOL = "BTCUSDT"
